@@ -8,15 +8,16 @@
 }
 .sidebar{
   position: fixed;
-  left: 0;
   top: 0;
+  right: 0;
   height: 100%;
-  width: 80px;
+  width: 60px;
   background: #0063a5;
   padding: 6px 14px;
   z-index: 99;
   transition: all 0.5s ease;
   margin-bottom: 0%;
+  align-items: flex-end;
 }
 .sidebar.open{
   width: 260px;
@@ -175,7 +176,7 @@
   position: fixed;
   height: 60px;
   width: 78px;
-  left: 0;
+  right: 0;
   bottom: -8px;
   padding: 10px 14px;
   background: #0064a7;
@@ -187,7 +188,7 @@
 }
 .sidebar li .profile-details{
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   flex-wrap: nowrap;
 }
 .sidebar li img{
@@ -225,16 +226,16 @@
 }
 .home-section{
   position: relative;
-  background: #E4E9F7;
-  min-height: 100vh;
+  background: none;
+  min-height: 100%;
   top: 0;
-  left: 78px;
+  right : 78px;
   width: calc(100% - 78px);
   transition: all 0.5s ease;
   z-index: 2;
 }
 .sidebar.open ~ .home-section{
-  left: 250px;
+  right: 250px;
   width: calc(100% - 250px);
 }
 .home-section .text{

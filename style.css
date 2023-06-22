@@ -3,19 +3,17 @@
   margin: 0;
 }
 section {
-  height: 35vh;
+  height: 50vh;
   display: flex;
   padding: 0 4em;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-end;
-  justify-items: center;
-  margin-left: 90px;
-  margin-bottom: 0%
+  row-gap: 20px;
 }
 .container {
   perspective: 1000px;
-  height: 30vh;
+  height: 50vh;
   width: 100%;
   cursor: pointer;
 }
@@ -45,7 +43,7 @@ section {
   backdrop-filter: blur(20px);
 }
 .front img {
-  width: 60%;
+  width: 80%;
 }
 .content {
   transform: translateZ(60px);
