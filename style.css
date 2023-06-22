@@ -13,7 +13,7 @@ section {
 }
 .container {
   perspective: 1000px;
-  height: 50vh;
+  height: 60vh;
   width: 100%;
   cursor: pointer;
 }
@@ -43,7 +43,7 @@ section {
   backdrop-filter: blur(20px);
 }
 .front img {
-  width: 80%;
+  width: 100%;
 }
 .content {
   transform: translateZ(60px);
