@@ -13,7 +13,7 @@ section {
 }
 .container {
   perspective: 1000px;
-  height: 60vh;
+  height: 50vh;
   width: 100%;
   cursor: pointer;
 }
@@ -74,7 +74,7 @@ section {
   }
   .container {
     flex-basis: 0 0 33.33%;
-    max-width: 33.33%;
+    max-width: 50%;
     padding: 0 1.5em;
   }
 }
