@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    max-width: 100%;
+    background-repeat: no-repeat;
+    filter: saturate(150%);
+    margin-bottom: 0%;
+}
+.heading{
+    color:white;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.start{
+    background-image: url(images.jpeg);
+    height:max-content;
+    width: max-content;
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding: 100px;
+    background-size: 100% 100%;
+    filter: contrast(150px);
+}
+strong{
+    color: rgb(255, 251, 0);
+}
+.mine{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+BUTTON{
+    border-radius: 20px 20px;
+    background-color: greenyellow;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer{
+    background-color: rgba(113, 180, 243, 0.904);
+    color: white;
+    align-items: flex-end;
+}
