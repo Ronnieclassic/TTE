@@ -3,7 +3,7 @@
   margin: 0;
 }
 section {
-  height: 50vh;
+  height: 70vh;
   display: flex;
   padding: 0 4em;
   flex-wrap: wrap;
@@ -13,7 +13,7 @@ section {
 }
 .container {
   perspective: 1000px;
-  height: 50vh;
+  height: 70vh;
   width: 100%;
   cursor: pointer;
 }
@@ -74,7 +74,7 @@ section {
   }
   .container {
     flex-basis: 0 0 33.33%;
-    max-width: 50%;
+    max-width: 70%;
     padding: 0 1.5em;
   }
 }
