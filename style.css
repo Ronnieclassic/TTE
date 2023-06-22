@@ -9,7 +9,7 @@ section {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-end;
-  row-gap: 60px;
+  row-gap: 90px;
 }
 .container {
   perspective: 1000px;
